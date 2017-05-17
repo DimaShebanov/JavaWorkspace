@@ -1,0 +1,127 @@
+package Client;
+
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+
+public class CChatPanel extends JPanel
+{
+	JTextArea chat;
+	JTextArea writefield;
+	JButton send;
+	CFrame mainFrame;
+	String login;
+	String roomname;
+	JLabel curroom;
+	
+	public CChatPanel(CFrame mainFrame, String login)
+	{
+		this.mainFrame = mainFrame;
+		this.login = login;
+		setBounds(180, 0, 500, 600);
+		
+		chat = new JTextArea();
+		setLayout(null);
+		chat.setEditable(false);		
+		JScrollPane chatscroll = new JScrollPane(chat);
+		chatscroll.setBounds(0, 30, 400, 470);
+		add(chatscroll);
+		
+		curroom = new JLabel("");
+		curroom.setBounds(0, 0, 50, 30);
+		add(curroom);
+		
+		JButton exit = new JButton("Exit");
+		exit.setFont(new Font("MyName", Font.ITALIC, 10));
+		exit.setBounds(170, 0, 100, 30);
+		add(exit);
+		exit.addActionListener(new ActionListener()
+		{
+			
+			@Override
+			public void actionPerformed(ActionEvent arg0)
+			{
+				String msg = "exit:" + login;
+				mainFrame.con.writer.send(msg);
+				mainFrame.dispose();
+				mainFrame.con.reader.stop();
+			}
+		});
+		
+		
+		JButton leaveroom = new JButton("Leave Room");
+		leaveroom.setFont(new Font("MyName", Font.ITALIC, 10));
+		leaveroom.setBounds(70, 0, 100, 30);
+		add(leaveroom);
+		leaveroom.addActionListener(new ActionListener()
+		{
+			
+			@Override
+			public void actionPerformed(ActionEvent e)
+			{
+				String msg = "leaveroom:" + roomname + ":" + login;
+				mainFrame.con.writer.send(msg);
+				mainFrame.rooms.setVisible(true);
+				curroom.setText("");
+				chat.setText("");
+			}
+		});
+		
+		writefield = new JTextArea(); 
+		writefield.setBounds(0, 500, 300, 60);
+		add(writefield);
+		writefield.addKeyListener(new KeyListener()
+		{
+			
+			@Override
+			public void keyTyped(KeyEvent e)
+			{
+				if(e.getKeyChar() == e.VK_ENTER)
+				{
+					writefield.setText("");
+				}
+			}
+			
+			@Override
+			public void keyReleased(KeyEvent e)
+			{}
+			
+			@Override
+			public void keyPressed(KeyEvent e)
+			{
+				if(e.getKeyChar() == e.VK_ENTER)
+				{
+					String msg = writefield.getText();
+					writefield.setText("");
+					writefield.setCaretPosition(0);
+					msg = "msg:" + login + " wrote: " + msg;
+					mainFrame.con.writer.send(msg);
+				}
+			}
+		});
+		
+		send = new JButton("Send");
+		send.setBounds(300, 500, 100, 60);
+		add(send);
+		send.addActionListener(new ActionListener()
+		{
+			
+			@Override
+			public void actionPerformed(ActionEvent e)
+			{
+				String msg = writefield.getText();
+				writefield.setText("");
+				msg = "msg:" + login + " wrote: " + msg;
+				mainFrame.con.writer.send(msg);
+			}
+		});
+	}
+}

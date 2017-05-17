@@ -1,0 +1,198 @@
+package server;
+
+import java.util.ArrayList;
+
+import javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction;
+
+import com.google.gson.Gson;
+
+import client.model.CMFigure;
+
+public class ServerSender extends Thread
+{
+	ArrayList<SClient> clients;
+	ArrayList<String> msg;
+	ArrayList<SRoom> rooms;
+	PictureIO pio;
+	Gson json = new Gson();
+
+	public ServerSender(ArrayList<SClient> clients, ArrayList<String> msg, ArrayList<CMFigure> figs,ArrayList<SRoom> rooms, PictureIO pio)
+	{
+		this.rooms = rooms;
+		this.msg = msg;
+		System.out.println("server sender initialised");
+
+		this.clients = clients;
+		this.pio = pio;
+		start();
+	}
+
+	@Override
+	public void run()
+	{
+		while(true)
+		{
+			System.out.println(msg.get(0));
+
+			for (String specMSG : msg)
+			{
+				
+				String msgContent = specMSG.substring(specMSG.indexOf(":") + 1);
+
+				if(specMSG.startsWith("new client:"))
+				{
+					sendRooms(Integer.parseInt(msgContent));
+				}
+				if(specMSG.startsWith("create room:"))
+				{
+					createRoom(msgContent);
+				}
+				if(specMSG.startsWith("leave room:"))
+				{
+					leaveRoom(Integer.parseInt(msgContent));
+				}
+				if(specMSG.startsWith("exit:"))
+				{
+					deleteClient(Integer.parseInt(msgContent));
+				}
+				if(specMSG.startsWith("join room"))
+				{
+					String roomName = msgContent.substring(0, msgContent.indexOf(","));
+					int clientID = Integer.parseInt(msgContent.substring(msgContent.indexOf(",") + 1));
+					joinRoom(roomName, clientID);
+				}
+			}
+			msg.clear();
+			for (SRoom room : rooms)
+			{
+				if(room.roomClients.size() > 0)
+				{
+					for (SClient client : room.roomClients)
+					{
+						if(room.roomMsg.size() > 0)
+						{
+							for (String line : room.roomMsg)
+							{
+								client.send(line);
+								room.appendFigs(line);
+							}
+						}
+					}
+					room.roomMsg.clear();
+				}
+			}
+		}
+
+	}
+
+
+	private void joinRoom(String roomName, int clientID)
+	{
+		SRoom roomToJoin = findRoom(roomName);
+		SClient client = findClient(clientID);
+
+		if(roomToJoin != null && client != null)
+		{
+			roomToJoin.roomClients.add(client);
+			client.curRoom = roomToJoin;
+			client.send("welcome to:" + roomName + "," + json.toJson(roomToJoin.roomFigs));
+		}
+	}
+
+
+	private SRoom findRoom(String roomName)
+	{
+		SRoom neededRoom = null;
+
+		for (SRoom room : rooms)
+		{
+			if(room.name.equals(roomName))
+			{
+				neededRoom = room;
+			}
+		}
+		return neededRoom;
+	}
+
+	private void createRoom(String roomName)
+	{
+		SRoom newRoom = findRoom(roomName);
+
+		if(newRoom == null)
+		{
+			newRoom = new SRoom(roomName);
+			rooms.add(newRoom);
+			sendAllClients("new room created:" + newRoom.name);
+		}
+	}
+
+	private void deleteClient(int clientID)
+	{
+		SClient clientToRemove = findClient(clientID);
+
+		if (clientToRemove != null)
+		{
+			leaveRoom(clientID);
+			clients.remove(clientToRemove);
+			clientToRemove.exit();
+		}
+	}
+
+	private void leaveRoom(int clientID)
+	{
+		SClient client = findClient(clientID);
+
+		if(client != null)
+		{
+			for (SRoom room : rooms)
+			{
+				if(room.roomClients.contains(client))
+				{
+					room.roomClients.remove(client);
+					return;
+				}
+			}
+		}
+
+	}
+
+	private void sendRooms(int clientID)
+	{
+		SClient client = findClient(clientID);
+		ArrayList<String> roomNames = new ArrayList<>();
+		if(rooms.size() > 0)
+		{
+			for (SRoom room : rooms)
+			{
+				roomNames.add(room.name);
+			}
+		}
+		if(roomNames.size() > 0)
+		{
+			client.send(json.toJson(roomNames));
+		}
+	}
+
+
+	private SClient findClient(int clientID)
+	{
+		SClient neededClient = null;
+		for (SClient client : clients)
+		{
+			if(client.id == clientID)
+			{
+				neededClient = client;
+			}
+		}
+		return neededClient;
+	}
+	
+	private void sendAllClients(String str)
+	{
+		for (SClient client : clients)
+		{
+			client.send(str);
+		}
+	}
+
+}

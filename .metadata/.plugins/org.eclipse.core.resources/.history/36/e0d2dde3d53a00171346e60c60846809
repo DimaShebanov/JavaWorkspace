@@ -1,0 +1,35 @@
+package server.core;
+
+import java.util.HashMap;
+
+public class ModuleFactory
+{
+	private HashMap<String, Module> modules = new HashMap<>();
+	private static ModuleFactory instance = new ModuleFactory();
+	
+	public Module getModule(String moduleName)
+	{
+		Module ret = null;
+		ret = modules.get(moduleName);
+		
+		if(ret == null)
+		{
+			try
+			{
+				ret = (Module) Class.forName(moduleName).newInstance();
+				System.out.println("I've got a new module called:" + moduleName);
+				
+			} catch (InstantiationException | IllegalAccessException | ClassNotFoundException e)
+			{
+				return null;
+			}
+			modules.put(moduleName, ret);
+		}
+		return ret;
+	}
+
+	public static ModuleFactory getInstance()
+	{
+		return instance;
+	}
+}

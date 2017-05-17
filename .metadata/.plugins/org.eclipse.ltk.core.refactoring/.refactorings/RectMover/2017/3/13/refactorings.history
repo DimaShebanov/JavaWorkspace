@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;RectResize/src&apos;&#x0D;&#x0A;- Original project: &apos;RectMover&apos;&#x0D;&#x0A;- Destination element: &apos;RectResize/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     RMPanel.java&#x0D;&#x0A;     RMMain.java&#x0D;&#x0A;     Figure.java&#x0D;&#x0A;     RMFrame.java" description="Copy compilation units" destination="=RectResize/src" element1="/src&lt;{RMPanel.java" element2="/src&lt;{RMMain.java" element3="/src&lt;{Figure.java" element4="/src&lt;{RMFrame.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1490546094410" units="4" version="1.0"/>
+</session>

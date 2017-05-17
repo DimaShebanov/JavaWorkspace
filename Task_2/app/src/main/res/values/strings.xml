@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Task_2</string>
+    <string name="btn_text_seven">7</string>
+    <string name="txt_btn_eight">8</string>
+    <string name="btn_text_nine">9</string>
+    <string name="btn_txt_eight">8</string>
+    <string name="btn_txt_nine">9</string>
+    <string name="btn_txt_add">+</string>
+    <string name="btn_txt_four">4</string>
+    <string name="btn_txt_five">5</string>
+    <string name="btn_txt_six">6</string>
+    <string name="btn_txt_minus">-</string>
+    <string name="btn_txt_one">1</string>
+    <string name="btn_txt_two">2</string>
+    <string name="btn_txt_three">3</string>
+    <string name="btn_txt_divide">/</string>
+    <string name="btn_txt_zero">0</string>
+    <string name="btn_txt_clear">C</string>
+    <string name="btn_txt_multiply">*</string>
+    <string name="btn_txt_equals">=</string>
+    <string name="txt_tv_second_equals">=</string>
+    <string name="Result_name">resultHerna</string>
+</resources>

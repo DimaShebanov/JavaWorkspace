@@ -1,0 +1,24 @@
+package server.core;
+
+public class ServerSender
+{
+	private static ServerSender instance = new ServerSender();
+	SingleToneDB db;
+	public ServerSender()
+	{
+		 db = SingleToneDB.getInstance();
+		
+	}
+	
+	public static ServerSender getInstance()
+	{
+		return instance;
+	}
+	
+	public void send()
+	{
+		
+	}
+	
+
+}

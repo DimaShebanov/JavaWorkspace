@@ -1,0 +1,8 @@
+package server.core;
+
+import java.util.ArrayList;
+
+public class SRoom
+{
+	ArrayList<SClient> clientsTakingPart = new ArrayList<>();
+}

@@ -1,0 +1,47 @@
+package server.core;
+
+public class ServerCore extends Thread
+{
+	SingleToneMessages msgDB;
+	ModuleFactory mFact;
+	ServerSender sender;
+
+	public ServerCore()
+	{
+		msgDB = SingleToneMessages.getInstance();
+		mFact = ModuleFactory.getInstance();
+		sender = ServerSender.getInstance();
+		start();
+	}
+
+	@Override
+	public void run()
+	{
+		String line = "";
+		String responseOfModule = "";
+		System.out.println("started a core lst");
+		while(true)
+		{
+			line = msgDB.get();
+			if(line != null)
+			{
+				System.out.println("trying to redirect this: " + line);
+				String[] partsOfLine = line.split(";", 3);
+				Module mod = mFact.getModule(partsOfLine[1]);
+
+				if(mod != null)
+				{
+					responseOfModule = mod.handleCommand(line);
+				}
+				else
+				{
+					responseOfModule = "Didn't find the module";
+				}
+			}
+
+
+
+		}
+	}
+
+}

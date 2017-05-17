@@ -1,0 +1,42 @@
+package server;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.Socket;
+import java.util.ArrayList;
+
+import client.model.MFigure;
+
+public class SClient extends Thread
+{
+	ArrayList<String> msg;
+	int id;
+	ArrayList<MFigure> figs;
+	public SClient(Socket sock, ArrayList<String> msg, int id)
+	{
+		try
+		{
+			DataInputStream in = new DataInputStream(sock.getInputStream());
+			DataOutputStream out = new DataOutputStream(sock.getOutputStream());
+		} 
+		catch (IOException e)
+		{
+			e.printStackTrace();
+		}
+
+		this.msg = msg;
+		this.figs = figs;
+		this.id = id;
+		msg.add("new client:" + id);
+		start();
+	}
+
+	@Override
+	public void run()
+	{
+		String line = "";
+		
+	}
+
+}

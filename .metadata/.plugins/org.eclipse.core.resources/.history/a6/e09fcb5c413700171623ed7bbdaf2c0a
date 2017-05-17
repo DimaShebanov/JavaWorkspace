@@ -1,0 +1,28 @@
+package client.gui;
+
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.SwingConstants;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
+
+import javax.swing.border.EmptyBorder;
+import javax.swing.border.LineBorder;
+
+public class CRoom extends JPanel
+{
+	String name;
+	public CRoom(String name)
+	{
+		setBorder(new EmptyBorder(10, 10, 10, 10));
+		setBackground(Color.CYAN);
+		this.name = name;
+		setLayout(new BorderLayout(0, 0));
+		
+		JLabel roomName = new JLabel(name);
+		roomName.setHorizontalAlignment(SwingConstants.CENTER);
+		add(roomName);
+	}
+
+}

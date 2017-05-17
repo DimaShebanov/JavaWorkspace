@@ -1,0 +1,68 @@
+package server;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.Socket;
+import java.util.ArrayList;
+
+import javax.swing.plaf.synth.SynthSpinnerUI;
+
+import com.google.gson.Gson;
+
+import model.MFigure;
+
+public class SClient extends Thread
+{
+	DataOutputStream out;
+	DataInputStream in;
+	Socket sock;
+	ArrayList<String> msg;
+	String login = "";
+	ServerSender ssen;
+	Gson json = new Gson();
+	int id;
+	public ArrayList<MFigure> figs;
+
+	public SClient(Socket sock, ArrayList<String> msg, String lastMessage, int id, ArrayList<MFigure> figs) throws IOException
+	{
+		this.out = new DataOutputStream(sock.getOutputStream());
+		this.figs = figs;
+		this.id = id;
+		this.in = new DataInputStream(sock.getInputStream());
+		this.sock = sock;
+		this.msg = msg;
+		
+		String newUserLine = json.toJson(figs);
+		out.writeUTF(newUserLine);
+		out.flush();
+		
+//		if(!lastMessage.equals(""))
+//		{
+//			out.writeUTF(lastMessage);
+//		}
+		start();
+	}
+
+	@Override
+	public void run()
+	{
+		try
+		{
+			String str = "";
+			
+			while(true)
+			{
+				str = in.readUTF();
+				if(!str.equals(""))
+				{
+					msg.add("clientID:" + id + ",msg:" + str);
+				}
+			}
+		} 
+		catch (IOException e)
+		{
+			e.printStackTrace();
+		}
+	}
+}

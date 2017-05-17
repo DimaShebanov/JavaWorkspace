@@ -1,0 +1,74 @@
+package server;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.swing.plaf.synth.SynthSpinnerUI;
+
+import com.google.gson.Gson;
+
+import model.MFigure;
+
+public class ServerSender extends Thread
+{
+	ArrayList<SClient> clients;
+	ArrayList<String> msg;
+	String lastMessage = "";
+	ArrayList<MFigure> figs = new ArrayList<>();
+	Gson json = new Gson();
+
+	public ServerSender(ArrayList<SClient> clients, ArrayList<String> msg)
+	{
+		this.clients = clients;
+		this.msg = msg;
+		start();
+	}
+
+	@Override
+	public void run()
+	{
+		
+		try
+		{
+			while (true)
+			{
+				for (SClient client : clients)
+				{
+					if(msg.size() > 0)
+					{
+						synchronized (msg)
+						{
+							for (String line : msg)
+							{
+								if(line.contains("new user:"))
+										
+								{
+								/*&& client.id == Integer.parseInt(line.substring(line.indexOf(":"))*/
+									Integer.parseInt(line.substring(line.indexOf(":");
+								}
+								client.out.writeUTF(line);
+								client.out.flush();
+							}
+						}
+					}
+				}
+				if(msg.size() > 0)
+				{
+					lastMessage = msg.get(msg.size() - 1);
+				}		
+				msg.clear();
+				sleep(100);
+			}
+		} 
+		catch (IOException | InterruptedException e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
+	public void renewFigs(String msg)
+	{
+		figs.add(json.fromJson(msg, MFigure.class));
+	}
+	
+}

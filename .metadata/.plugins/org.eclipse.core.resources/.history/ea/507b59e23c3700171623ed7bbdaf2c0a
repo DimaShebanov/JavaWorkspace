@@ -1,0 +1,44 @@
+package client.gui;
+
+import java.awt.Font;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import java.awt.FlowLayout;
+import javax.swing.JPanel;
+import java.awt.GridLayout;
+
+public class CFrame extends JFrame
+{
+	CPanelRooms roomsPanel;
+	public CFrame()
+	{
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 600, 450);
+		roomsPanel = new CPanelRooms();
+		roomsPanel.setBounds(0, 36, 584, 375);
+		getContentPane().add(roomsPanel);
+		roomsPanel.setLayout(new GridLayout(0, 5, 0, 0));
+		
+		CRoom room1 = new CRoom("Name");
+		roomsPanel.add(panel_5);
+		getContentPane().setLayout(null);
+		
+		JButtonPanel btnPanel = new JButtonPanel();
+		btnPanel.setBounds(0, 0, 584, 36);
+		getContentPane().add(btnPanel);
+		btnPanel.setLayout(null);
+		
+		JButton btnCreateRoom = new JButton("Create room");
+		btnCreateRoom.setFont(new Font("Tahoma", Font.BOLD, 11));
+		btnCreateRoom.setBounds(0, 0, 132, 36);
+		btnPanel.add(btnCreateRoom);
+		
+		JButton btnExit = new JButton("Exit");
+		btnExit.setBounds(468, 0, 116, 36);
+		btnPanel.add(btnExit);
+		
+		setVisible(true);
+		
+	}
+}

@@ -1,0 +1,6 @@
+package client.connection;
+
+public class CReader
+{
+
+}

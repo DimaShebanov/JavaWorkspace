@@ -1,0 +1,31 @@
+package client.gui;
+
+import java.awt.Color;
+
+import javax.swing.JPanel;
+
+import client.logic.CCommand;
+
+public class CContentPanel extends JPanel
+{
+	public CPanelRooms rooms;
+	public CButtonPanel btnPanel;
+	public CCommand cComm;
+
+	public CContentPanel()
+	{
+		setBounds(0, 0, 584, 411);
+		rooms = new CPanelRooms();
+		add(rooms);
+		
+		btnPanel = new CButtonPanel(rooms, this);
+		add(btnPanel);
+		setLayout(null);
+	}
+
+	
+	public void connectToRoom(String roomName, String figs)
+	{
+		
+	}
+}

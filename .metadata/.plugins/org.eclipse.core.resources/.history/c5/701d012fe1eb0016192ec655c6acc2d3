@@ -1,0 +1,74 @@
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.io.IOException;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class ChatFrame extends JFrame
+{
+	JTextField chat_txt;
+	ChatConnection con;
+	KeyActListener aKey = new KeyActListener();
+	JLabel lbl_resp;
+
+	public ChatFrame()
+	{
+		setBounds(100, 100, 500, 500);
+		setLayout(null);
+		con = new ChatConnection(this);
+		chat_txt = new JTextField();
+		chat_txt.setBounds(0, 0, 100, 20);
+		add(chat_txt);
+		chat_txt.addKeyListener(aKey);
+
+		lbl_resp = new JLabel();
+		lbl_resp.setBounds(100, 0, 300, 20);
+		add(lbl_resp);
+
+		JButton btn_exit = new JButton();
+		
+		setVisible(true);
+	}
+
+	class KeyActListener implements KeyListener
+	{
+
+		@Override
+		public void keyPressed(KeyEvent e)
+		{
+			if(e.getKeyCode() == e.VK_ENTER)
+			{
+				String line = chat_txt.getText();
+				try
+				{
+					con.out.writeUTF(line);
+					con.out.flush();
+					line = con.in.readUTF();
+					lbl_resp.setText(line);				
+				} 
+				catch (IOException e1)
+				{
+					e1.printStackTrace();
+				}
+			}
+
+		}
+
+		@Override
+		public void keyReleased(KeyEvent e)
+		{
+			// TODO Auto-generated method stub
+
+		}
+
+		@Override
+		public void keyTyped(KeyEvent e)
+		{
+
+		}
+
+	}
+}

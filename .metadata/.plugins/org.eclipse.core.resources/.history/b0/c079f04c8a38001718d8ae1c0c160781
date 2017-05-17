@@ -1,0 +1,13 @@
+package server.core;
+
+import java.net.Socket;
+
+public class SClient
+{
+
+	public SClient(Socket sock, int i)
+	{
+		// TODO Auto-generated constructor stub
+	}
+	
+}

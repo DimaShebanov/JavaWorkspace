@@ -1,0 +1,34 @@
+package client.logic;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import client.connection.CConnection;
+import client.gui.CContentPanel;
+import client.gui.CRoom;
+
+public class CCommand
+{
+	CContentPanel content;
+	CConnection con;
+	ActionChooseRoomLst aRoomChsLst;
+	public CCommand(CContentPanel content, CConnection con)
+	{
+		this.con = con;
+		this.content = content;
+		aRoomChsLst = new ActionChooseRoomLst();
+	}
+
+	
+	class ActionChooseRoomLst implements ActionListener
+	{
+		@Override
+		public void actionPerformed(ActionEvent e)
+		{
+			CRoom room = (CRoom) e.getSource();
+			con.writer.send("join room:" + room.name);
+			content.rooms.setVisible(false);
+			content.curRoom.setVisible(true);
+		}
+	}
+}

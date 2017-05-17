@@ -1,0 +1,16 @@
+package server;
+
+import java.util.ArrayList;
+
+import client.model.MFigure;
+
+public class ServerListener
+{
+
+	public ServerListener(ArrayList<SClient> clients, ArrayList<String> msg, ArrayList<MFigure> figs,
+			ArrayList<SRoom> rooms)
+	{
+		// TODO Auto-generated constructor stub
+	}
+
+}

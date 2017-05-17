@@ -1,0 +1,27 @@
+package client.connection;
+
+import java.io.DataOutputStream;
+import java.io.IOException;
+
+public class CWriter
+{
+	DataOutputStream write;
+	public CWriter(DataOutputStream write)
+	{
+		this.write = write;
+	}
+	public void send(String msg)
+	{
+		try
+		{
+			write.writeUTF(msg);
+			write.flush();
+
+		} catch (IOException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

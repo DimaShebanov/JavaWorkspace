@@ -1,0 +1,15 @@
+package client.connection;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.InputStream;
+
+public class CReader
+{
+	DataInputStream read;
+	public CReader(DataInputStream read)
+	{
+		this.read = read;
+	}
+
+}

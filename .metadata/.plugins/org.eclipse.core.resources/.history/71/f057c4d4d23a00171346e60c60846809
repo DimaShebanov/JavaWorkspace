@@ -1,0 +1,11 @@
+package server.core;
+
+import java.util.ArrayList;
+
+public class SRoom
+{
+	public String roomName;
+	ArrayList<SClient> clientsTakingPart = new ArrayList<>();
+	
+	
+}

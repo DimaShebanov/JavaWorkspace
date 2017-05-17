@@ -1,0 +1,16 @@
+package client.model;
+
+import javax.swing.JPanel;
+
+public class CPanelRooms extends JPanel
+{
+
+	/**
+	 * Create the panel.
+	 */
+	public CPanelRooms()
+	{
+
+	}
+
+}

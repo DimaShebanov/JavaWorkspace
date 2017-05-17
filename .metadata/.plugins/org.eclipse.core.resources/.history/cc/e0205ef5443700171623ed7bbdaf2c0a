@@ -1,0 +1,24 @@
+package client.gui;
+
+import java.awt.Color;
+
+import javax.swing.JPanel;
+
+public class CContentPanel extends JPanel
+{
+	CPanelRooms rooms;
+	CButtonPanel btnPanel;
+
+	public CContentPanel()
+	{
+//		setBackground(Color.RED);
+		setBounds(0, 0, 584, 411);
+		rooms = new CPanelRooms();
+		add(rooms);
+		
+		btnPanel = new CButtonPanel(rooms);
+		add(btnPanel);
+		setLayout(null);
+	}
+
+}

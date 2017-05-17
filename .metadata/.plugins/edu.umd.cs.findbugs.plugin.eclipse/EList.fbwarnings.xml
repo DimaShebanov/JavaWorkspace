@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.2-dev-20160306-90c514b" sequence="6" timestamp="1489069985293" analysisTimestamp="1489069983715" release="">
+  <Project projectName="EList">
+    <Jar>D:\Workspace\EList\bin\AList0.class</Jar>
+    <AuxClasspathEntry>D:\Workspace\EList\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\&#1044;&#1080;&#1084;&#1072;\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\&#1044;&#1080;&#1084;&#1072;\.p2\pool\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\&#1044;&#1080;&#1084;&#1072;\.p2\pool\plugins\org.testng.eclipse_6.10.0.201612030230\lib\testng.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\&#1044;&#1080;&#1084;&#1072;\.p2\pool\plugins\org.testng.eclipse_6.10.0.201612030230\lib\jcommander.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\&#1044;&#1080;&#1084;&#1072;\.p2\pool\plugins\org.testng.eclipse_6.10.0.201612030230\lib\bsh-2.0b4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\&#1044;&#1080;&#1084;&#1072;\.p2\pool\plugins\org.testng.eclipse_6.10.0.201612030230\lib\snakeyaml.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Workspace\EList\lib\pmd-java-5.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_111\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>D:\Workspace\EList\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="NP_NULL_ON_SOME_PATH" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="2">
+    <Class classname="AList0">
+      <SourceLine classname="AList0" sourcefile="AList0.java" sourcepath="AList0.java"/>
+    </Class>
+    <Method classname="AList0" name="init" signature="([I)V" isStatic="false">
+      <SourceLine classname="AList0" start="13" end="22" startBytecode="0" endBytecode="145" sourcefile="AList0.java" sourcepath="AList0.java"/>
+    </Method>
+    <LocalVariable name="rr" register="1" pc="14" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="AList0" start="17" end="17" startBytecode="15" endBytecode="15" sourcefile="AList0.java" sourcepath="AList0.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="AList0" start="13" end="13" startBytecode="1" endBytecode="1" sourcefile="AList0.java" sourcepath="AList0.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="2">
+    <Class classname="AList0">
+      <SourceLine classname="AList0" sourcefile="AList0.java" sourcepath="AList0.java"/>
+    </Class>
+    <Method classname="AList0" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="AList0" start="41" end="58" startBytecode="0" endBytecode="241" sourcefile="AList0.java" sourcepath="AList0.java"/>
+    </Method>
+    <SourceLine classname="AList0" start="54" end="54" startBytecode="58" endBytecode="58" sourcefile="AList0.java" sourcepath="AList0.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="2">
+    <Class classname="AList1">
+      <SourceLine classname="AList1" sourcefile="AList1.java" sourcepath="AList1.java"/>
+    </Class>
+    <Method classname="AList1" name="Reverse" signature="()V" isStatic="false">
+      <SourceLine classname="AList1" start="311" end="325" startBytecode="0" endBytecode="213" sourcefile="AList1.java" sourcepath="AList1.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE" priority="2" rank="11" abbrev="RCN" category="CORRECTNESS" first="2">
+    <Class classname="AList1">
+      <SourceLine classname="AList1" sourcefile="AList1.java" sourcepath="AList1.java"/>
+    </Class>
+    <Method classname="AList1" name="init" signature="([I)V" isStatic="false">
+      <SourceLine classname="AList1" start="90" end="106" startBytecode="0" endBytecode="186" sourcefile="AList1.java" sourcepath="AList1.java"/>
+    </Method>
+    <LocalVariable name="rr" register="1" pc="22" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="AList1" start="90" end="90" startBytecode="1" endBytecode="1" sourcefile="AList1.java" sourcepath="AList1.java"/>
+    <SourceLine classname="AList1" start="95" end="95" startBytecode="23" endBytecode="23" sourcefile="AList1.java" sourcepath="AList1.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="AList1" start="95" end="95" startBytecode="23" endBytecode="23" sourcefile="AList1.java" sourcepath="AList1.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="2">
+    <Class classname="AList1">
+      <SourceLine classname="AList1" sourcefile="AList1.java" sourcepath="AList1.java"/>
+    </Class>
+    <Method classname="AList1" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="AList1" start="115" end="132" startBytecode="0" endBytecode="238" sourcefile="AList1.java" sourcepath="AList1.java"/>
+    </Method>
+    <SourceLine classname="AList1" start="128" end="128" startBytecode="56" endBytecode="56" sourcefile="AList1.java" sourcepath="AList1.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="2">
+    <Class classname="AList2">
+      <SourceLine classname="AList2" sourcefile="AList2.java" sourcepath="AList2.java"/>
+    </Class>
+    <Method classname="AList2" name="Reverse" signature="()V" isStatic="false">
+      <SourceLine classname="AList2" start="291" end="305" startBytecode="0" endBytecode="209" sourcefile="AList2.java" sourcepath="AList2.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="2">
+    <Class classname="AList2">
+      <SourceLine classname="AList2" sourcefile="AList2.java" sourcepath="AList2.java"/>
+    </Class>
+    <Method classname="AList2" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="AList2" start="11" end="29" startBytecode="0" endBytecode="267" sourcefile="AList2.java" sourcepath="AList2.java"/>
+    </Method>
+    <SourceLine classname="AList2" start="25" end="25" startBytecode="68" endBytecode="68" sourcefile="AList2.java" sourcepath="AList2.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 6 Mar 2017 21:15:47 +0200" total_classes="1" referenced_classes="11" total_bugs="7" total_size="194" num_packages="1" java_version="1.8.0_111" vm_version="25.111-b14" cpu_seconds="5.62" clock_seconds="1.58" peak_mbytes="440.81" alloc_mbytes="1024.00" gc_seconds="0.04" priority_2="7">
+    <PackageStats package="" total_bugs="7" total_types="3" total_size="194" priority_2="7">
+      <ClassStats class="AList0" sourceFile="AList0.java" interface="false" size="194" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="372" invocations="309" avgMicrosecondsPerInvocation="1205" maxMicrosecondsPerInvocation="41054" standardDeviationMircosecondsPerInvocation="2969"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="224" invocations="2" avgMicrosecondsPerInvocation="112259" maxMicrosecondsPerInvocation="196936" standardDeviationMircosecondsPerInvocation="84677"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="95" invocations="309" avgMicrosecondsPerInvocation="309" maxMicrosecondsPerInvocation="909" standardDeviationMircosecondsPerInvocation="117"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="63" invocations="275" avgMicrosecondsPerInvocation="230" maxMicrosecondsPerInvocation="27331" standardDeviationMircosecondsPerInvocation="1644"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="59" invocations="92" avgMicrosecondsPerInvocation="650" maxMicrosecondsPerInvocation="3154" standardDeviationMircosecondsPerInvocation="584"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="57" invocations="11" avgMicrosecondsPerInvocation="5216" maxMicrosecondsPerInvocation="23096" standardDeviationMircosecondsPerInvocation="6850"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="42" invocations="21" avgMicrosecondsPerInvocation="2025" maxMicrosecondsPerInvocation="6681" standardDeviationMircosecondsPerInvocation="1405"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="40" invocations="21" avgMicrosecondsPerInvocation="1907" maxMicrosecondsPerInvocation="5695" standardDeviationMircosecondsPerInvocation="1164"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="37" invocations="11" avgMicrosecondsPerInvocation="3435" maxMicrosecondsPerInvocation="18354" standardDeviationMircosecondsPerInvocation="4961"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="37" invocations="21" avgMicrosecondsPerInvocation="1780" maxMicrosecondsPerInvocation="4750" standardDeviationMircosecondsPerInvocation="1109"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="35" invocations="21" avgMicrosecondsPerInvocation="1692" maxMicrosecondsPerInvocation="5645" standardDeviationMircosecondsPerInvocation="1300"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="34" invocations="21" avgMicrosecondsPerInvocation="1640" maxMicrosecondsPerInvocation="4286" standardDeviationMircosecondsPerInvocation="947"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="31" invocations="21" avgMicrosecondsPerInvocation="1499" maxMicrosecondsPerInvocation="4619" standardDeviationMircosecondsPerInvocation="1078"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="19" invocations="13" avgMicrosecondsPerInvocation="1486" maxMicrosecondsPerInvocation="6040" standardDeviationMircosecondsPerInvocation="1543"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="16" invocations="11" avgMicrosecondsPerInvocation="1527" maxMicrosecondsPerInvocation="6976" standardDeviationMircosecondsPerInvocation="2038"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1488828932849" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1488828932855" release="" codeSize="11" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1488828949768" release="" codeSize="2095" numClasses="9"/>
+    <AppVersion sequence="3" timestamp="1488829153871" release="" codeSize="186" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1489069849356" release="" codeSize="11" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1489069913768" release="" codeSize="194" numClasses="1"/>
+  </History>
+</BugCollection>

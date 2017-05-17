@@ -1,0 +1,39 @@
+package client.gui;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import java.awt.Color;
+import java.awt.GridLayout;
+import com.jgoodies.forms.layout.FormLayout;
+import com.jgoodies.forms.layout.ColumnSpec;
+import com.jgoodies.forms.layout.RowSpec;
+import java.awt.CardLayout;
+import java.awt.FlowLayout;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+
+public class CFrame extends JFrame
+{
+	CPanelRooms rooms;
+	public CFrame()
+	{
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 500, 450);
+		rooms = new CPanelRooms();
+		rooms.setBackground(Color.RED);
+		rooms.setSize(484, 361);
+		rooms.setLocation(0, 50);
+		add(rooms);
+		setLayout(null);
+		
+		JPanel btnPanel = new JPanel();
+		btnPanel.setBackground(Color.YELLOW);
+		btnPanel.setBounds(0, 0, 484, 50);
+		add(btnPanel);
+		
+	}
+}

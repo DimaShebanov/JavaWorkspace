@@ -1,0 +1,33 @@
+package client.gui;
+
+import java.awt.Font;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class CFrame extends JFrame
+{
+	CPanelRooms roomsPanel;
+	public CFrame()
+	{
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 600, 450);
+		roomsPanel = new CPanelRooms();
+		roomsPanel.setBounds(0, 36, 584, 375);
+		getContentPane().add(roomsPanel);
+		getContentPane().setLayout(null);
+		
+		JButtonPanel btnPanel = new JButtonPanel();
+		btnPanel.setBounds(0, 0, 584, 36);
+		getContentPane().add(btnPanel);
+		btnPanel.setLayout(null);
+		
+		JButton btnCreateRoom = new JButton("Create room");
+		btnCreateRoom.setFont(new Font("Times New Roman", Font.PLAIN, 10));
+		btnCreateRoom.setBounds(0, 0, 82, 36);
+		btnPanel.add(btnCreateRoom);
+		
+		setVisible(true);
+		
+	}
+}

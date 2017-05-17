@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;VectorDrawer/src&apos;&#x0D;&#x0A;- Original project: &apos;Drawer&apos;&#x0D;&#x0A;- Destination element: &apos;VectorDrawer/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     PButtonPanel.java&#x0D;&#x0A;     PCommand.java&#x0D;&#x0A;     PMain.java&#x0D;&#x0A;     PData.java&#x0D;&#x0A;     PFrame.java&#x0D;&#x0A;     PPanel.java" description="Copy compilation units" destination="=VectorDrawer/src" element1="/src&lt;{PButtonPanel.java" element2="/src&lt;{PCommand.java" element3="/src&lt;{PMain.java" element4="/src&lt;{PData.java" element5="/src&lt;{PFrame.java" element6="/src&lt;{PPanel.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1483643814820" units="6" version="1.0"/>
+</session>

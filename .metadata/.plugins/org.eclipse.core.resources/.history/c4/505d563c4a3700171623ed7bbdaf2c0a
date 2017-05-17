@@ -1,0 +1,13 @@
+package client.connection;
+
+import java.io.DataOutputStream;
+
+public class CWriter
+{
+	DataOutputStream write;
+	public CWriter(DataOutputStream write)
+	{
+		this.write = write;
+	}
+
+}

@@ -1,0 +1,59 @@
+package clientserver;
+
+import java.awt.Color;
+import java.awt.Rectangle;
+import java.io.DataInputStream;
+import java.io.IOException;
+import java.net.Socket;
+import java.util.ArrayList;
+
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import frame.Figure;
+import frame.RMFrame;
+import model.MFigure;
+import model.RMData;
+
+public class ClientReader extends Thread
+{
+	DataInputStream read;
+	RMFrame mainFrame;
+	Gson json = new Gson();
+	public ClientReader(Socket sock, RMFrame mainFrame)
+	{
+		this.mainFrame = mainFrame;
+		try
+		{
+			read = new DataInputStream(sock.getInputStream());
+		} 
+		catch (IOException e)
+		{
+			e.printStackTrace();
+		}
+		start();
+	}
+
+	@Override
+	public void run()
+	{
+		try
+		{
+			String line;
+			sleep(1000);
+			while(true)
+			{
+				line = read.readUTF();
+				MFigure fig = json.fromJson(line, MFigure.class);
+				Rectangle r = new Rectangle(fig.x, fig.y, fig.width, fig.height);
+				RMData data = new RMData(fig.stroke, fig.type, fig.col, fig.number);
+				mainFrame.rmp.add(new Figure(r, data, rmc))
+			}
+		}
+		catch (IOException | InterruptedException e)
+		{
+			stop();
+			e.printStackTrace();
+		}
+	}
+}

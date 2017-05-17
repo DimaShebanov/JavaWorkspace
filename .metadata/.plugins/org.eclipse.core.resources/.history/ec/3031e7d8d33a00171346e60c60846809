@@ -1,0 +1,41 @@
+package server.core;
+
+public class ServerCore extends Thread
+{
+	SingleToneMessages msgDB;
+	ModuleFactory mFact;
+	ServerSender sender;
+	
+	public ServerCore()
+	{
+		msgDB = SingleToneMessages.getInstance();
+		mFact = ModuleFactory.getInstance();
+		sender = ServerSender.getInstance();
+	}
+	
+	@Override
+	public void run()
+	{
+		String line = "";
+		String responseOfModule = "";
+		while(true)
+		{
+			line = msgDB.get();
+			
+			String[] partsOfLine = line.split(";", 3);
+			Module mod = mFact.getModule(partsOfLine[1]);
+			
+			if(mod != null)
+			{
+				responseOfModule = mod.handleCommand(line);
+			}
+			else
+			{
+				responseOfModule = "Didn't find the module";
+			}
+			
+			
+		}
+	}
+
+}

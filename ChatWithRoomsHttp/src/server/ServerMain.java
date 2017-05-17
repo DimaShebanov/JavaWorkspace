@@ -1,0 +1,21 @@
+package server;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.util.ArrayList;
+
+public class ServerMain
+{
+
+	public static void main(String[] args) throws IOException
+	{
+		ServerSocket ss = new ServerSocket(4455);
+		
+		ArrayList<SClient> clients = new ArrayList<>();
+		ArrayList<Room> rooms = new ArrayList<>();
+		ArrayList<String> specialMsg = new ArrayList<>();
+		ServerSender ssen = new ServerSender(clients, rooms, specialMsg);
+		ServerListener sl = new ServerListener(clients, ss, specialMsg);
+	}
+
+}

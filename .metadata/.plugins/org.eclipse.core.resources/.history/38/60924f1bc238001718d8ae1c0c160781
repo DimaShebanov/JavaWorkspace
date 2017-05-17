@@ -1,0 +1,26 @@
+package server.core;
+
+import java.util.ArrayList;
+
+public class SingleToneDB
+{
+	private static SingleToneDB instance = new SingleToneDB();
+	
+	public ArrayList<SClient> clients = new ArrayList<>();
+	public ArrayList<SRoom> rooms = new ArrayList<>();
+	
+	public static SingleToneDB getInstanceOf()
+	{
+		return instance;
+	}
+	
+	public void addClient(SClient client)
+	{
+		clients.add(client);
+	}
+	
+	public void addRoom(SRoom room)
+	{
+		rooms.add(room);
+	}
+}

@@ -1,0 +1,29 @@
+package client.gui;
+
+import java.awt.Color;
+
+import javax.swing.JPanel;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class CButtonPanel extends JPanel
+{
+
+	/**
+	 * Create the panel.
+	 */
+	public CButtonPanel()
+	{
+		setBackground(Color.YELLOW);
+		setBounds(0, 0, 584, 50);
+		setLayout(null);
+		
+		JButton btnNewButton = new JButton("Create room");
+		btnNewButton.setBounds(0, 0, 120, 50);
+		add(btnNewButton);
+		
+		
+	}
+
+}

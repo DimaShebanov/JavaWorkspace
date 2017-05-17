@@ -1,0 +1,29 @@
+package server;
+
+import java.util.ArrayList;
+
+import client.model.MFigure;
+
+public class SRoom
+{
+	ArrayList<SClient> roomClients;
+	ArrayList<String> roomMsg;
+	ArrayList<MFigure> roomfigs;
+	PictureIO pio;
+	String name;
+	
+	public SRoom(String name)
+	{
+		roomClients = new ArrayList<>();
+		roomMsg = new ArrayList<>();
+		
+		pio = new PictureIO();
+		this.name = name;
+	}
+	
+	
+	public void appendFigs(MFigure src)
+	{
+		MFigure mfig = 
+	}
+}

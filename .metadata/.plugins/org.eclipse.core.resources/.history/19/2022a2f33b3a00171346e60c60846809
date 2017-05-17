@@ -1,0 +1,28 @@
+package server.core;
+
+public class ServerCore extends Thread
+{
+	SingleToneMessages msgDB;
+	ModuleFactory mFact;
+	
+	public ServerCore()
+	{
+		msgDB = SingleToneMessages.getInstance();
+		mFact = ModuleFactory.getInstance();
+	}
+	
+	@Override
+	public void run()
+	{
+		String line = "";
+		
+		while(true)
+		{
+			line = msgDB.get();
+			
+			String[] partsOfLine = line.split(";", 3);
+			mFact.getModule(partsOfLine[1]).handleCommand(line);
+		}
+	}
+
+}

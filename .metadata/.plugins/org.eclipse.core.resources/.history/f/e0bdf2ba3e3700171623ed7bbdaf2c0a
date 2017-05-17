@@ -1,0 +1,44 @@
+package client.gui;
+
+import javax.swing.JPanel;
+import java.awt.GridLayout;
+import javax.swing.JInternalFrame;
+import java.awt.CardLayout;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import javax.swing.BoxLayout;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import com.jgoodies.forms.layout.FormLayout;
+import com.jgoodies.forms.layout.ColumnSpec;
+import com.jgoodies.forms.layout.RowSpec;
+import com.jgoodies.forms.layout.FormSpecs;
+import java.awt.BorderLayout;
+import javax.swing.JLabel;
+import javax.swing.SwingConstants;
+
+public class CPanelRooms extends JPanel
+{
+
+	/**
+	 * Create the panel.
+	 */
+	public CPanelRooms()
+	{
+		setBackground(Color.RED);
+		setBounds(0, 50, 584, 361);
+		setLayout(new GridLayout(1, 0, 0, 0));
+		
+		CRoom room = new CRoom("name");
+		add(room);
+		
+		CRoom room1 = new CRoom("name");
+		add(room1);
+		
+		CRoom room2 = new CRoom("name");
+		add(room2);
+		
+	
+	}
+
+}

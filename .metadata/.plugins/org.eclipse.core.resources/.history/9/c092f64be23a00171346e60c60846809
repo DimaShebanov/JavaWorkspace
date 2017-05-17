@@ -1,0 +1,15 @@
+package server.modules;
+
+import server.core.Module;
+
+public class LoggingModule implements Module
+{
+
+	@Override
+	public String handleCommand(String command)
+	{
+		System.out.println("Core sent me this :" + command);
+		return "it's ok";
+	}
+
+}

@@ -1,0 +1,3702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="232" passed="229">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3727" started-at="2016-12-22T17:43:22Z" finished-at="2016-12-22T17:43:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3727" started-at="2016-12-22T17:43:22Z" finished-at="2016-12-22T17:43:26Z">
+      <class name="EListTestNG">
+        <test-method status="PASS" signature="testAddEnd_to0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddEnd_to0" duration-ms="72" started-at="2016-12-22T19:43:22Z" data-provider="data" finished-at="2016-12-22T19:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{3487}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEnd_to0 -->
+        <test-method status="PASS" signature="testAddEnd_to0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddEnd_to0" duration-ms="15" started-at="2016-12-22T19:43:22Z" data-provider="data" finished-at="2016-12-22T19:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{3487}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEnd_to0 -->
+        <test-method status="PASS" signature="testAddEnd_to1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddEnd_to1" duration-ms="9" started-at="2016-12-22T19:43:22Z" data-provider="data" finished-at="2016-12-22T19:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 345}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEnd_to1 -->
+        <test-method status="PASS" signature="testAddEnd_to1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddEnd_to1" duration-ms="2" started-at="2016-12-22T19:43:22Z" data-provider="data" finished-at="2016-12-22T19:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 345}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEnd_to1 -->
+        <test-method status="PASS" signature="testAddEnd_to2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddEnd_to2" duration-ms="4" started-at="2016-12-22T19:43:22Z" data-provider="data" finished-at="2016-12-22T19:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 34}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEnd_to2 -->
+        <test-method status="PASS" signature="testAddEnd_to2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddEnd_to2" duration-ms="9" started-at="2016-12-22T19:43:22Z" data-provider="data" finished-at="2016-12-22T19:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 34}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEnd_to2 -->
+        <test-method status="PASS" signature="testAddEnd_to3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddEnd_to3" duration-ms="3" started-at="2016-12-22T19:43:22Z" data-provider="data" finished-at="2016-12-22T19:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 34}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEnd_to3 -->
+        <test-method status="PASS" signature="testAddEnd_to3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddEnd_to3" duration-ms="2" started-at="2016-12-22T19:43:22Z" data-provider="data" finished-at="2016-12-22T19:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 34}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEnd_to3 -->
+        <test-method status="PASS" signature="testAddEnd_tomany(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddEnd_tomany" duration-ms="7" started-at="2016-12-22T19:43:22Z" data-provider="data" finished-at="2016-12-22T19:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 3425, 65, 566, 34}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEnd_tomany -->
+        <test-method status="PASS" signature="testAddEnd_tomany(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddEnd_tomany" duration-ms="13" started-at="2016-12-22T19:43:22Z" data-provider="data" finished-at="2016-12-22T19:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 3425, 65, 566, 34}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEnd_tomany -->
+        <test-method status="PASS" signature="testAddPos_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_1" duration-ms="15" started-at="2016-12-22T19:43:22Z" data-provider="data" finished-at="2016-12-22T19:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_1 -->
+        <test-method status="PASS" signature="testAddPos_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_1" duration-ms="6" started-at="2016-12-22T19:43:22Z" data-provider="data" finished-at="2016-12-22T19:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_1 -->
+        <test-method status="PASS" signature="testAddPos_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_2" duration-ms="4" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_2 -->
+        <test-method status="PASS" signature="testAddPos_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_2" duration-ms="26" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_2 -->
+        <test-method status="PASS" signature="testAddPos_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_3" duration-ms="3" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_3 -->
+        <test-method status="PASS" signature="testAddPos_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_3" duration-ms="5" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_3 -->
+        <test-method status="PASS" signature="testAddPos_lessthanLeng(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_lessthanLeng" duration-ms="6" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 124, 534, 6}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.addPos(LList1.java:256)
+	at EListTestNG.testAddPos_lessthanLeng(EListTestNG.java:1012)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_lessthanLeng -->
+        <test-method status="PASS" signature="testAddPos_lessthanLeng(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_lessthanLeng" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 124, 534, 6}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.addPos(LList2.java:242)
+	at EListTestNG.testAddPos_lessthanLeng(EListTestNG.java:1012)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_lessthanLeng -->
+        <test-method status="PASS" signature="testAddPos_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_many" duration-ms="5" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 124, 123, 534, 6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_many -->
+        <test-method status="PASS" signature="testAddPos_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_many" duration-ms="3" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 124, 123, 534, 6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_many -->
+        <test-method status="PASS" signature="testAddPos_manyInBeg(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_manyInBeg" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{123, 22, 2, 4, 41, 124, 534, 6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_manyInBeg -->
+        <test-method status="PASS" signature="testAddPos_manyInBeg(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_manyInBeg" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{123, 22, 2, 4, 41, 124, 534, 6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_manyInBeg -->
+        <test-method status="PASS" signature="testAddPos_manyInEnd(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_manyInEnd" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 124, 534, 6, 123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_manyInEnd -->
+        <test-method status="PASS" signature="testAddPos_manyInEnd(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_manyInEnd" duration-ms="3" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 124, 534, 6, 123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_manyInEnd -->
+        <test-method status="PASS" signature="testAddPos_moreThanleng(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_moreThanleng" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 124, 534, 6}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.addPos(LList1.java:256)
+	at EListTestNG.testAddPos_moreThanleng(EListTestNG.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_moreThanleng -->
+        <test-method status="PASS" signature="testAddPos_moreThanleng(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddPos_moreThanleng" duration-ms="4" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 124, 534, 6}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.addPos(LList2.java:242)
+	at EListTestNG.testAddPos_moreThanleng(EListTestNG.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPos_moreThanleng -->
+        <test-method status="PASS" signature="testAddStart_to0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddStart_to0" duration-ms="1" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{587}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart_to0 -->
+        <test-method status="PASS" signature="testAddStart_to0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddStart_to0" duration-ms="24" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{587}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart_to0 -->
+        <test-method status="PASS" signature="testAddStart_to1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddStart_to1" duration-ms="1" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{34, 1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart_to1 -->
+        <test-method status="PASS" signature="testAddStart_to1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddStart_to1" duration-ms="3" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{34, 1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart_to1 -->
+        <test-method status="PASS" signature="testAddStart_to2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddStart_to2" duration-ms="1" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{34, 1, 322}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart_to2 -->
+        <test-method status="PASS" signature="testAddStart_to2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddStart_to2" duration-ms="1" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{34, 1, 322}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart_to2 -->
+        <test-method status="PASS" signature="testAddStart_to3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddStart_to3" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{34, 1, 322, 56}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart_to3 -->
+        <test-method status="PASS" signature="testAddStart_to3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddStart_to3" duration-ms="1" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{34, 1, 322, 56}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart_to3 -->
+        <test-method status="PASS" signature="testAddStart_toMany(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddStart_toMany" duration-ms="1" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{34, 1, 322, 56, 3425, 65, 566}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart_toMany -->
+        <test-method status="PASS" signature="testAddStart_toMany(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testAddStart_toMany" duration-ms="3" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{34, 1, 322, 56, 3425, 65, 566}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart_toMany -->
+        <test-method status="PASS" signature="testClear_len1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testClear_len1" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear_len1 -->
+        <test-method status="PASS" signature="testClear_len1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testClear_len1" duration-ms="3" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear_len1 -->
+        <test-method status="PASS" signature="testClear_len2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testClear_len2" duration-ms="6" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear_len2 -->
+        <test-method status="PASS" signature="testClear_len2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testClear_len2" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear_len2 -->
+        <test-method status="PASS" signature="testClear_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testClear_many" duration-ms="3" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear_many -->
+        <test-method status="PASS" signature="testClear_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testClear_many" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear_many -->
+        <test-method status="PASS" signature="testClear_zerolen(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testClear_zerolen" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear_zerolen -->
+        <test-method status="PASS" signature="testClear_zerolen(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testClear_zerolen" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear_zerolen -->
+        <test-method status="PASS" signature="testDelEnd_from0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelEnd_from0" duration-ms="10" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.delEnd(LList1.java:84)
+	at EListTestNG.testDelEnd_from0(EListTestNG.java:463)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelEnd_from0 -->
+        <test-method status="PASS" signature="testDelEnd_from0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelEnd_from0" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.delEnd(LList2.java:96)
+	at EListTestNG.testDelEnd_from0(EListTestNG.java:463)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelEnd_from0 -->
+        <test-method status="PASS" signature="testDelEnd_from1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelEnd_from1" duration-ms="3" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelEnd_from1 -->
+        <test-method status="PASS" signature="testDelEnd_from1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelEnd_from1" duration-ms="3" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelEnd_from1 -->
+        <test-method status="PASS" signature="testDelEnd_from2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelEnd_from2" duration-ms="9" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelEnd_from2 -->
+        <test-method status="PASS" signature="testDelEnd_from2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelEnd_from2" duration-ms="5" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelEnd_from2 -->
+        <test-method status="PASS" signature="testDelEnd_from3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelEnd_from3" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelEnd_from3 -->
+        <test-method status="PASS" signature="testDelEnd_from3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelEnd_from3" duration-ms="1" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelEnd_from3 -->
+        <test-method status="PASS" signature="testDelEnd_fromMany(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelEnd_fromMany" duration-ms="166" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 1234, 55, 786}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelEnd_fromMany -->
+        <test-method status="PASS" signature="testDelEnd_fromMany(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelEnd_fromMany" duration-ms="10" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 1234, 55, 786}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelEnd_fromMany -->
+        <test-method status="PASS" signature="testDelPos_beg(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_beg" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2, 4, 41, 124, 534, 6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_beg -->
+        <test-method status="PASS" signature="testDelPos_beg(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_beg" duration-ms="5" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2, 4, 41, 124, 534, 6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_beg -->
+        <test-method status="PASS" signature="testDelPos_end(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_end" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 124, 534}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_end -->
+        <test-method status="PASS" signature="testDelPos_end(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_end" duration-ms="7" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 124, 534}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_end -->
+        <test-method status="PASS" signature="testDelPos_from0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_from0" duration-ms="27" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.delStart(LList1.java:107)
+	at LList1.delPos(LList1.java:276)
+	at EListTestNG.testDelPos_from0(EListTestNG.java:1024)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_from0 -->
+        <test-method status="PASS" signature="testDelPos_from0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_from0" duration-ms="4" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.delStart(LList2.java:117)
+	at LList2.delPos(LList2.java:278)
+	at EListTestNG.testDelPos_from0(EListTestNG.java:1024)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_from0 -->
+        <test-method status="PASS" signature="testDelPos_from1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_from1" duration-ms="18" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_from1 -->
+        <test-method status="PASS" signature="testDelPos_from1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_from1" duration-ms="2" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_from1 -->
+        <test-method status="PASS" signature="testDelPos_from2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_from2" duration-ms="13" started-at="2016-12-22T19:43:23Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_from2 -->
+        <test-method status="PASS" signature="testDelPos_from2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_from2" duration-ms="1" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_from2 -->
+        <test-method status="PASS" signature="testDelPos_manymiddle(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_manymiddle" duration-ms="1" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 534, 6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_manymiddle -->
+        <test-method status="PASS" signature="testDelPos_manymiddle(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_manymiddle" duration-ms="1" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 534, 6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_manymiddle -->
+        <test-method status="PASS" signature="testDelPos_oneafterbeg(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_oneafterbeg" duration-ms="1" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 4, 41, 124, 534, 6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_oneafterbeg -->
+        <test-method status="PASS" signature="testDelPos_oneafterbeg(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_oneafterbeg" duration-ms="1" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 4, 41, 124, 534, 6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_oneafterbeg -->
+        <test-method status="PASS" signature="testDelPos_onebeforeend(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_onebeforeend" duration-ms="10" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 124, 6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_onebeforeend -->
+        <test-method status="PASS" signature="testDelPos_onebeforeend(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelPos_onebeforeend" duration-ms="18" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 124, 6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelPos_onebeforeend -->
+        <test-method status="PASS" signature="testDelStart_from0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelStart_from0" duration-ms="4" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.delStart(LList1.java:107)
+	at EListTestNG.testDelStart_from0(EListTestNG.java:391)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelStart_from0 -->
+        <test-method status="PASS" signature="testDelStart_from0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelStart_from0" duration-ms="15" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.delStart(LList2.java:117)
+	at EListTestNG.testDelStart_from0(EListTestNG.java:391)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelStart_from0 -->
+        <test-method status="PASS" signature="testDelStart_from1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelStart_from1" duration-ms="2" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelStart_from1 -->
+        <test-method status="PASS" signature="testDelStart_from1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelStart_from1" duration-ms="2" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelStart_from1 -->
+        <test-method status="PASS" signature="testDelStart_from2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelStart_from2" duration-ms="14" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{322}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelStart_from2 -->
+        <test-method status="PASS" signature="testDelStart_from2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelStart_from2" duration-ms="4" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{322}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelStart_from2 -->
+        <test-method status="PASS" signature="testDelStart_from3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelStart_from3" duration-ms="6" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{322, 56}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelStart_from3 -->
+        <test-method status="PASS" signature="testDelStart_from3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelStart_from3" duration-ms="3" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{322, 56}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelStart_from3 -->
+        <test-method status="PASS" signature="testDelStart_fromMany(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelStart_fromMany" duration-ms="9" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{322, 56, 324, 66, 44}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelStart_fromMany -->
+        <test-method status="PASS" signature="testDelStart_fromMany(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testDelStart_fromMany" duration-ms="5" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{322, 56, 324, 66, 44}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelStart_fromMany -->
+        <test-method status="PASS" signature="testGet_LessThanleng(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_LessThanleng" duration-ms="5" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 1234, 55, 786, 43}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.get(LList1.java:48)
+	at EListTestNG.testGet_LessThanleng(EListTestNG.java:561)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_LessThanleng -->
+        <test-method status="PASS" signature="testGet_LessThanleng(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_LessThanleng" duration-ms="6" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 1234, 55, 786, 43}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.get(LList2.java:58)
+	at EListTestNG.testGet_LessThanleng(EListTestNG.java:561)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_LessThanleng -->
+        <test-method status="PASS" signature="testGet_end(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_end" duration-ms="2" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 1234, 55, 786, 43}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_end -->
+        <test-method status="PASS" signature="testGet_end(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_end" duration-ms="5" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 1234, 55, 786, 43}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_end -->
+        <test-method status="PASS" signature="testGet_from0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_from0" duration-ms="4" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.get(LList1.java:48)
+	at EListTestNG.testGet_from0(EListTestNG.java:580)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_from0 -->
+        <test-method status="PASS" signature="testGet_from0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_from0" duration-ms="9" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.get(LList2.java:58)
+	at EListTestNG.testGet_from0(EListTestNG.java:580)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_from0 -->
+        <test-method status="PASS" signature="testGet_from1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_from1" duration-ms="4" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1324}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_from1 -->
+        <test-method status="PASS" signature="testGet_from1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_from1" duration-ms="1" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1324}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_from1 -->
+        <test-method status="PASS" signature="testGet_from2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_from2" duration-ms="2" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1324, 213}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_from2 -->
+        <test-method status="PASS" signature="testGet_from2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_from2" duration-ms="2" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1324, 213}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_from2 -->
+        <test-method status="PASS" signature="testGet_middle(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_middle" duration-ms="3" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 1234, 55, 786, 43}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_middle -->
+        <test-method status="PASS" signature="testGet_middle(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_middle" duration-ms="10" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 1234, 55, 786, 43}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_middle -->
+        <test-method status="PASS" signature="testGet_moreThanLeng(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_moreThanLeng" duration-ms="6" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 1234, 55, 786, 43}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.get(LList1.java:48)
+	at EListTestNG.testGet_moreThanLeng(EListTestNG.java:541)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_moreThanLeng -->
+        <test-method status="PASS" signature="testGet_moreThanLeng(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_moreThanLeng" duration-ms="3" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 1234, 55, 786, 43}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.get(LList2.java:58)
+	at EListTestNG.testGet_moreThanLeng(EListTestNG.java:541)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_moreThanLeng -->
+        <test-method status="PASS" signature="testGet_start(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_start" duration-ms="4" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{112, 322, 56, 1234, 55, 786, 43}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_start -->
+        <test-method status="PASS" signature="testGet_start(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_start" duration-ms="4" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{112, 322, 56, 1234, 55, 786, 43}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_start -->
+        <test-method status="PASS" signature="testGet_zero(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_zero" duration-ms="2" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 1234, 55, 786, 43}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_zero -->
+        <test-method status="PASS" signature="testGet_zero(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testGet_zero" duration-ms="8" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 1234, 55, 786, 43}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_zero -->
+        <test-method status="PASS" signature="testHalfReverse_0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testHalfReverse_0" duration-ms="2" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHalfReverse_0 -->
+        <test-method status="PASS" signature="testHalfReverse_0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testHalfReverse_0" duration-ms="2" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHalfReverse_0 -->
+        <test-method status="PASS" signature="testHalfReverse_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testHalfReverse_1" duration-ms="2" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHalfReverse_1 -->
+        <test-method status="PASS" signature="testHalfReverse_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testHalfReverse_1" duration-ms="3" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHalfReverse_1 -->
+        <test-method status="PASS" signature="testHalfReverse_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testHalfReverse_2" duration-ms="2" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2, 22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHalfReverse_2 -->
+        <test-method status="FAIL" signature="testHalfReverse_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testHalfReverse_2" duration-ms="22" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.internal.ArrayComparisonFailure">
+            <message>
+              <![CDATA[arrays first differed at element [0]; expected:<2> but was:<22>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[arrays first differed at element [0]; expected:<2> but was:<22>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:55)
+	at org.junit.Assert.internalArrayEquals(Assert.java:532)
+	at org.junit.Assert.assertArrayEquals(Assert.java:416)
+	at org.junit.Assert.assertArrayEquals(Assert.java:427)
+	at EListTestNG.testHalfReverse_2(EListTestNG.java:1260)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: java.lang.AssertionError: expected:<2> but was:<22>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:53)
+	... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.internal.ArrayComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHalfReverse_2 -->
+        <test-method status="PASS" signature="testHalfReverse_manyOdd(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testHalfReverse_manyOdd" duration-ms="3" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{41, 124, 534, 33, 22, 2, 4}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHalfReverse_manyOdd -->
+        <test-method status="FAIL" signature="testHalfReverse_manyOdd(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testHalfReverse_manyOdd" duration-ms="27" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 33, 41, 124, 534}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.internal.ArrayComparisonFailure">
+            <message>
+              <![CDATA[arrays first differed at element [0]; expected:<41> but was:<22>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[arrays first differed at element [0]; expected:<41> but was:<22>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:55)
+	at org.junit.Assert.internalArrayEquals(Assert.java:532)
+	at org.junit.Assert.assertArrayEquals(Assert.java:416)
+	at org.junit.Assert.assertArrayEquals(Assert.java:427)
+	at EListTestNG.testHalfReverse_manyOdd(EListTestNG.java:1271)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: java.lang.AssertionError: expected:<41> but was:<22>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:53)
+	... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.internal.ArrayComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHalfReverse_manyOdd -->
+        <test-method status="PASS" signature="testHalfReverse_manyeven(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testHalfReverse_manyeven" duration-ms="14" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{41, 124, 534, 22, 2, 4}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHalfReverse_manyeven -->
+        <test-method status="FAIL" signature="testHalfReverse_manyeven(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testHalfReverse_manyeven" duration-ms="9" started-at="2016-12-22T19:43:24Z" data-provider="data" finished-at="2016-12-22T19:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 2, 4, 41, 124, 534}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.internal.ArrayComparisonFailure">
+            <message>
+              <![CDATA[arrays first differed at element [0]; expected:<41> but was:<22>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[arrays first differed at element [0]; expected:<41> but was:<22>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:55)
+	at org.junit.Assert.internalArrayEquals(Assert.java:532)
+	at org.junit.Assert.assertArrayEquals(Assert.java:416)
+	at org.junit.Assert.assertArrayEquals(Assert.java:427)
+	at EListTestNG.testHalfReverse_manyeven(EListTestNG.java:1282)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: java.lang.AssertionError: expected:<41> but was:<22>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:53)
+	... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.internal.ArrayComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHalfReverse_manyeven -->
+        <test-method status="PASS" signature="testInit_len1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testInit_len1" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit_len1 -->
+        <test-method status="PASS" signature="testInit_len1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testInit_len1" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit_len1 -->
+        <test-method status="PASS" signature="testInit_len2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testInit_len2" duration-ms="6" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit_len2 -->
+        <test-method status="PASS" signature="testInit_len2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testInit_len2" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit_len2 -->
+        <test-method status="PASS" signature="testInit_len3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testInit_len3" duration-ms="30" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 2, 4}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit_len3 -->
+        <test-method status="PASS" signature="testInit_len3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testInit_len3" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 2, 4}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit_len3 -->
+        <test-method status="PASS" signature="testInit_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testInit_many" duration-ms="4" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 2, 4, 2, 3, 4, 5, 6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit_many -->
+        <test-method status="PASS" signature="testInit_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testInit_many" duration-ms="6" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 2, 4, 2, 3, 4, 5, 6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit_many -->
+        <test-method status="PASS" signature="testInit_zerolen(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testInit_zerolen" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit_zerolen -->
+        <test-method status="PASS" signature="testInit_zerolen(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testInit_zerolen" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit_zerolen -->
+        <test-method status="PASS" signature="testMaxPos_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMaxPos_1" duration-ms="5" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxPos_1 -->
+        <test-method status="PASS" signature="testMaxPos_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMaxPos_1" duration-ms="4" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxPos_1 -->
+        <test-method status="PASS" signature="testMaxPos_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMaxPos_2" duration-ms="27" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{12, 1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxPos_2 -->
+        <test-method status="PASS" signature="testMaxPos_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMaxPos_2" duration-ms="7" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{12, 1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxPos_2 -->
+        <test-method status="PASS" signature="testMaxPos_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMaxPos_3" duration-ms="12" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2, 1, 12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxPos_3 -->
+        <test-method status="PASS" signature="testMaxPos_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMaxPos_3" duration-ms="7" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2, 1, 12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxPos_3 -->
+        <test-method status="PASS" signature="testMaxPos_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMaxPos_many" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{12, 1981, 981, 8, 4, 9, 2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxPos_many -->
+        <test-method status="PASS" signature="testMaxPos_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMaxPos_many" duration-ms="13" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{12, 1981, 981, 8, 4, 9, 2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxPos_many -->
+        <test-method status="PASS" signature="testMaxPos_manyAllTheSame(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMaxPos_manyAllTheSame" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 22, 22, 22, 22, 22, 22, 22, 22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxPos_manyAllTheSame -->
+        <test-method status="PASS" signature="testMaxPos_manyAllTheSame(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMaxPos_manyAllTheSame" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 22, 22, 22, 22, 22, 22, 22, 22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxPos_manyAllTheSame -->
+        <test-method status="PASS" signature="testMaxPos_zero(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMaxPos_zero" duration-ms="11" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.maxPos(LList1.java:196)
+	at EListTestNG.testMaxPos_zero(EListTestNG.java:777)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxPos_zero -->
+        <test-method status="PASS" signature="testMaxPos_zero(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMaxPos_zero" duration-ms="4" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.maxPos(LList2.java:188)
+	at EListTestNG.testMaxPos_zero(EListTestNG.java:777)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxPos_zero -->
+        <test-method status="PASS" signature="testMax_0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMax_0" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.maxPos(LList1.java:196)
+	at LList1.max(LList1.java:222)
+	at EListTestNG.testMax_0(EListTestNG.java:810)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_0 -->
+        <test-method status="PASS" signature="testMax_0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMax_0" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.maxPos(LList2.java:188)
+	at LList2.max(LList2.java:214)
+	at EListTestNG.testMax_0(EListTestNG.java:810)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_0 -->
+        <test-method status="PASS" signature="testMax_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMax_1" duration-ms="4" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_1 -->
+        <test-method status="PASS" signature="testMax_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMax_1" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_1 -->
+        <test-method status="PASS" signature="testMax_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMax_2" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 855}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_2 -->
+        <test-method status="PASS" signature="testMax_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMax_2" duration-ms="8" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 855}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_2 -->
+        <test-method status="PASS" signature="testMax_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMax_3" duration-ms="13" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 17, 178}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_3 -->
+        <test-method status="PASS" signature="testMax_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMax_3" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 17, 178}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_3 -->
+        <test-method status="PASS" signature="testMax_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMax_many" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 325, 658, 86, 4568, 3, 32}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_many -->
+        <test-method status="PASS" signature="testMax_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMax_many" duration-ms="5" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 325, 658, 86, 4568, 3, 32}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_many -->
+        <test-method status="PASS" signature="testMax_manyAllTheSame(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMax_manyAllTheSame" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 22, 22, 22, 22, 22, 22, 22, 22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_manyAllTheSame -->
+        <test-method status="PASS" signature="testMax_manyAllTheSame(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMax_manyAllTheSame" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 22, 22, 22, 22, 22, 22, 22, 22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_manyAllTheSame -->
+        <test-method status="PASS" signature="testMinPos_0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMinPos_0" duration-ms="4" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.minPos(LList1.java:174)
+	at EListTestNG.testMinPos_0(EListTestNG.java:612)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinPos_0 -->
+        <test-method status="PASS" signature="testMinPos_0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMinPos_0" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.minPos(LList2.java:166)
+	at EListTestNG.testMinPos_0(EListTestNG.java:612)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinPos_0 -->
+        <test-method status="PASS" signature="testMinPos_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMinPos_1" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinPos_1 -->
+        <test-method status="PASS" signature="testMinPos_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMinPos_1" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinPos_1 -->
+        <test-method status="PASS" signature="testMinPos_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMinPos_2" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinPos_2 -->
+        <test-method status="PASS" signature="testMinPos_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMinPos_2" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinPos_2 -->
+        <test-method status="PASS" signature="testMinPos_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMinPos_3" duration-ms="6" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{23, 53, 4}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinPos_3 -->
+        <test-method status="PASS" signature="testMinPos_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMinPos_3" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{23, 53, 4}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinPos_3 -->
+        <test-method status="PASS" signature="testMinPos_allthesame(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMinPos_allthesame" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{12, 12, 12, 12, 12, 12, 12, 12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinPos_allthesame -->
+        <test-method status="PASS" signature="testMinPos_allthesame(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMinPos_allthesame" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{12, 12, 12, 12, 12, 12, 12, 12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinPos_allthesame -->
+        <test-method status="PASS" signature="testMinPos_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMinPos_many" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1324, 213, 432, 1, 2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinPos_many -->
+        <test-method status="PASS" signature="testMinPos_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMinPos_many" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1324, 213, 432, 1, 2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinPos_many -->
+        <test-method status="PASS" signature="testMinPos_many_fewMins(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMinPos_many_fewMins" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 2, 23, 2, 4, 1, 23, 1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinPos_many_fewMins -->
+        <test-method status="PASS" signature="testMinPos_many_fewMins(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMinPos_many_fewMins" duration-ms="29" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 2, 23, 2, 4, 1, 23, 1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinPos_many_fewMins -->
+        <test-method status="PASS" signature="testMin_0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMin_0" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.minPos(LList1.java:174)
+	at LList1.min(LList1.java:216)
+	at EListTestNG.testMin_0(EListTestNG.java:685)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_0 -->
+        <test-method status="PASS" signature="testMin_0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMin_0" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.minPos(LList2.java:166)
+	at LList2.min(LList2.java:208)
+	at EListTestNG.testMin_0(EListTestNG.java:685)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_0 -->
+        <test-method status="PASS" signature="testMin_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMin_1" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_1 -->
+        <test-method status="PASS" signature="testMin_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMin_1" duration-ms="4" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_1 -->
+        <test-method status="PASS" signature="testMin_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMin_2" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{112, 312}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_2 -->
+        <test-method status="PASS" signature="testMin_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMin_2" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{112, 312}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_2 -->
+        <test-method status="PASS" signature="testMin_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMin_3" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{12, 43, 5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_3 -->
+        <test-method status="PASS" signature="testMin_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMin_3" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{12, 43, 5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_3 -->
+        <test-method status="PASS" signature="testMin_allthesame(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMin_allthesame" duration-ms="6" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{12, 12, 12, 12, 12, 12, 12, 12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_allthesame -->
+        <test-method status="PASS" signature="testMin_allthesame(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMin_allthesame" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{12, 12, 12, 12, 12, 12, 12, 12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_allthesame -->
+        <test-method status="PASS" signature="testMin_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMin_many" duration-ms="5" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{6, 616, 816, 9816, 84, 126, 13, 0, 841}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_many -->
+        <test-method status="PASS" signature="testMin_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testMin_many" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{6, 616, 816, 9816, 84, 126, 13, 0, 841}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_many -->
+        <test-method status="PASS" signature="testReverse_0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testReverse_0" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverse_0 -->
+        <test-method status="PASS" signature="testReverse_0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testReverse_0" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverse_0 -->
+        <test-method status="PASS" signature="testReverse_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testReverse_1" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverse_1 -->
+        <test-method status="PASS" signature="testReverse_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testReverse_1" duration-ms="4" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverse_1 -->
+        <test-method status="PASS" signature="testReverse_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testReverse_2" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2, 22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverse_2 -->
+        <test-method status="PASS" signature="testReverse_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testReverse_2" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2, 22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverse_2 -->
+        <test-method status="PASS" signature="testReverse_manyEven(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testReverse_manyEven" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{534, 124, 41, 4, 2, 22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverse_manyEven -->
+        <test-method status="PASS" signature="testReverse_manyEven(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testReverse_manyEven" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{534, 124, 41, 4, 2, 22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverse_manyEven -->
+        <test-method status="PASS" signature="testReverse_manyOdd(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testReverse_manyOdd" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{32, 534, 124, 41, 4, 2, 22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverse_manyOdd -->
+        <test-method status="PASS" signature="testReverse_manyOdd(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testReverse_manyOdd" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{32, 534, 124, 41, 4, 2, 22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverse_manyOdd -->
+        <test-method status="PASS" signature="testSet_beginning(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSet_beginning" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{33, 325, 658, 86, 4568, 3, 32}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_beginning -->
+        <test-method status="PASS" signature="testSet_beginning(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSet_beginning" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{33, 325, 658, 86, 4568, 3, 32}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_beginning -->
+        <test-method status="PASS" signature="testSet_end(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSet_end" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 325, 658, 86, 4568, 3, 33}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_end -->
+        <test-method status="PASS" signature="testSet_end(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSet_end" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 325, 658, 86, 4568, 3, 33}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_end -->
+        <test-method status="PASS" signature="testSet_lessThan(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSet_lessThan" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 325, 658, 86, 4568, 3, 32}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.set(LList1.java:230)
+	at EListTestNG.testSet_lessThan(EListTestNG.java:905)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_lessThan -->
+        <test-method status="PASS" signature="testSet_lessThan(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSet_lessThan" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 325, 658, 86, 4568, 3, 32}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.set(LList2.java:222)
+	at EListTestNG.testSet_lessThan(EListTestNG.java:905)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_lessThan -->
+        <test-method status="PASS" signature="testSet_mid(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSet_mid" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 325, 658, 33, 4568, 3, 32}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_mid -->
+        <test-method status="PASS" signature="testSet_mid(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSet_mid" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 325, 658, 33, 4568, 3, 32}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_mid -->
+        <test-method status="PASS" signature="testSet_moreThan(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSet_moreThan" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 325, 658, 86, 4568, 3, 32}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.set(LList1.java:230)
+	at EListTestNG.testSet_moreThan(EListTestNG.java:896)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_moreThan -->
+        <test-method status="PASS" signature="testSet_moreThan(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSet_moreThan" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22, 325, 658, 86, 4568, 3, 32}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.set(LList2.java:222)
+	at EListTestNG.testSet_moreThan(EListTestNG.java:896)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_moreThan -->
+        <test-method status="PASS" signature="testSet_whenLeng1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSet_whenLeng1" duration-ms="4" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{33}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_whenLeng1 -->
+        <test-method status="PASS" signature="testSet_whenLeng1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSet_whenLeng1" duration-ms="13" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{33}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_whenLeng1 -->
+        <test-method status="PASS" signature="testSet_whenleng0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSet_whenleng0" duration-ms="19" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList1.set(LList1.java:230)
+	at EListTestNG.testSet_whenleng0(EListTestNG.java:914)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_whenleng0 -->
+        <test-method status="PASS" signature="testSet_whenleng0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSet_whenleng0" duration-ms="11" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LList2.set(LList2.java:222)
+	at EListTestNG.testSet_whenleng0(EListTestNG.java:914)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_whenleng0 -->
+        <test-method status="PASS" signature="testSize_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSize_1" duration-ms="3" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{128}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize_1 -->
+        <test-method status="PASS" signature="testSize_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSize_1" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{128}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize_1 -->
+        <test-method status="PASS" signature="testSize_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSize_2" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{0, 0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize_2 -->
+        <test-method status="PASS" signature="testSize_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSize_2" duration-ms="2" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{0, 0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize_2 -->
+        <test-method status="PASS" signature="testSize_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSize_3" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{0, 0, 0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize_3 -->
+        <test-method status="PASS" signature="testSize_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSize_3" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{0, 0, 0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize_3 -->
+        <test-method status="PASS" signature="testSize_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSize_many" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize_many -->
+        <test-method status="PASS" signature="testSize_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSize_many" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize_many -->
+        <test-method status="PASS" signature="testSize_zero(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSize_zero" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize_zero -->
+        <test-method status="PASS" signature="testSize_zero(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSize_zero" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize_zero -->
+        <test-method status="PASS" signature="testSort_0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSort_0" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_0 -->
+        <test-method status="PASS" signature="testSort_0(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSort_0" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_0 -->
+        <test-method status="PASS" signature="testSort_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSort_1" duration-ms="10" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_1 -->
+        <test-method status="PASS" signature="testSort_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSort_1" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_1 -->
+        <test-method status="PASS" signature="testSort_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSort_2" duration-ms="1" started-at="2016-12-22T19:43:25Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2, 22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_2 -->
+        <test-method status="PASS" signature="testSort_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSort_2" duration-ms="1" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2, 22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_2 -->
+        <test-method status="PASS" signature="testSort_even(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSort_even" duration-ms="1" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2, 4, 22, 41, 124, 534}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_even -->
+        <test-method status="PASS" signature="testSort_even(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSort_even" duration-ms="1" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2, 4, 22, 41, 124, 534}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_even -->
+        <test-method status="PASS" signature="testSort_manyOdd(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSort_manyOdd" duration-ms="1" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2, 4, 6, 22, 41, 124, 534}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_manyOdd -->
+        <test-method status="PASS" signature="testSort_manyOdd(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testSort_manyOdd" duration-ms="3" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{2, 4, 6, 22, 41, 124, 534}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_manyOdd -->
+        <test-method status="PASS" signature="testToArray_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToArray_1" duration-ms="2" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToArray_1 -->
+        <test-method status="PASS" signature="testToArray_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToArray_1" duration-ms="2" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToArray_1 -->
+        <test-method status="PASS" signature="testToArray_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToArray_2" duration-ms="1" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToArray_2 -->
+        <test-method status="PASS" signature="testToArray_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToArray_2" duration-ms="2" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToArray_2 -->
+        <test-method status="PASS" signature="testToArray_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToArray_3" duration-ms="1" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 2, 5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToArray_3 -->
+        <test-method status="PASS" signature="testToArray_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToArray_3" duration-ms="1" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 2, 5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToArray_3 -->
+        <test-method status="PASS" signature="testToArray_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToArray_many" duration-ms="1" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 3425, 65, 566}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToArray_many -->
+        <test-method status="PASS" signature="testToArray_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToArray_many" duration-ms="1" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56, 3425, 65, 566}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToArray_many -->
+        <test-method status="PASS" signature="testToArray_zero(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToArray_zero" duration-ms="5" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToArray_zero -->
+        <test-method status="PASS" signature="testToArray_zero(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToArray_zero" duration-ms="3" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToArray_zero -->
+        <test-method status="PASS" signature="testToString_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToString_1" duration-ms="2" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{56}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString_1 -->
+        <test-method status="PASS" signature="testToString_1(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToString_1" duration-ms="1" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{56}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString_1 -->
+        <test-method status="PASS" signature="testToString_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToString_2" duration-ms="1" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 356}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString_2 -->
+        <test-method status="PASS" signature="testToString_2(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToString_2" duration-ms="0" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 356}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString_2 -->
+        <test-method status="PASS" signature="testToString_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToString_3" duration-ms="1" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString_3 -->
+        <test-method status="PASS" signature="testToString_3(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToString_3" duration-ms="1" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 322, 56}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString_3 -->
+        <test-method status="PASS" signature="testToString_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToString_many" duration-ms="1" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 2, 3, 4, 5, 4, 56}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString_many -->
+        <test-method status="PASS" signature="testToString_many(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToString_many" duration-ms="2" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{1, 2, 3, 4, 5, 4, 56}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString_many -->
+        <test-method status="PASS" signature="testToString_zero(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToString_zero" duration-ms="4" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString_zero -->
+        <test-method status="PASS" signature="testToString_zero(LList)[pri:0, instance:EListTestNG@23ceabc1]" name="testToString_zero" duration-ms="5" started-at="2016-12-22T19:43:26Z" data-provider="data" finished-at="2016-12-22T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nothing here!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString_zero -->
+      </class> <!-- EListTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

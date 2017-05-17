@@ -1,0 +1,45 @@
+package client.gui;
+
+import javax.swing.JPanel;
+import java.awt.GridLayout;
+import javax.swing.JInternalFrame;
+import java.awt.CardLayout;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import javax.swing.BoxLayout;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import com.jgoodies.forms.layout.FormLayout;
+import com.jgoodies.forms.layout.ColumnSpec;
+import com.jgoodies.forms.layout.RowSpec;
+
+import client.logic.CCommand;
+
+import com.jgoodies.forms.layout.FormSpecs;
+import java.awt.BorderLayout;
+import javax.swing.JLabel;
+import javax.swing.SwingConstants;
+import net.miginfocom.swing.MigLayout;
+import java.awt.GridBagLayout;
+import java.awt.GridBagConstraints;
+import javax.swing.JButton;
+import java.awt.Insets;
+import java.awt.Point;
+import java.awt.Rectangle;
+
+import javax.swing.LayoutStyle.ComponentPlacement;
+
+public class CPanelRooms extends JPanel
+{
+	CCommand cComm;
+	public CPanelRooms(CCommand cComm)
+	{
+		this.cComm = cComm;
+		setBounds(0, 50, 584, 361);
+		setLayout(new GridLayout(5, 5, 5, 5));
+		setBackground(Color.BLUE);
+		
+		add(new CRoom("nams", cComm));
+	}
+
+}

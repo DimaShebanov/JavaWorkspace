@@ -1,0 +1,16 @@
+package server;
+
+import java.net.Socket;
+import java.util.ArrayList;
+
+import client.model.MFigure;
+
+public class SClient
+{
+
+	public SClient(Socket sock, ArrayList<String> msg, int i, ArrayList<MFigure> figs)
+	{
+		// TODO Auto-generated constructor stub
+	}
+
+}

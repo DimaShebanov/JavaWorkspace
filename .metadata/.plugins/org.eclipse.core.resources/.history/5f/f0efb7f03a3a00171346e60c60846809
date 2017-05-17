@@ -1,0 +1,14 @@
+package server.core;
+
+public class ServerCore extends Thread
+{
+	SingleToneMessages msgDB;
+	ModuleFactory 
+	
+	public ServerCore()
+	{
+		msgDB = SingleToneMessages.getInstanceOf();
+		
+	}
+
+}

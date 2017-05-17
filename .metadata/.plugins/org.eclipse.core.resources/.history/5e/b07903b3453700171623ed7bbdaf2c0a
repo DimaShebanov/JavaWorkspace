@@ -1,0 +1,34 @@
+package client.gui;
+
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.SwingConstants;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.border.LineBorder;
+import javax.swing.border.EmptyBorder;
+
+public class CRoom extends JPanel implements ActionListener
+{
+	String name;
+	public CRoom(String name)
+	{
+		setBackground(Color.CYAN);
+		this.name = name;
+		setLayout(new BorderLayout(0, 0));
+		
+		JLabel roomName = new JLabel(name);
+		roomName.setHorizontalAlignment(SwingConstants.CENTER);
+		add(roomName);
+		addAncestorListener((this);
+	}
+	@Override
+	public void actionPerformed(ActionEvent e)
+	{
+		System.out.println("ssss");
+	}
+
+}

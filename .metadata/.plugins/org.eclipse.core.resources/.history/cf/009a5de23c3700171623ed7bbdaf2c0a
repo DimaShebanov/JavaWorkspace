@@ -1,0 +1,13 @@
+package client.gui;
+
+import java.awt.Font;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import java.awt.FlowLayout;
+import javax.swing.JPanel;
+import java.awt.GridLayout;
+
+public class CFrame extends JFrame
+{
+}

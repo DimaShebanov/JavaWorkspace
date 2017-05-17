@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PButtonPanel.java&apos; to &apos;PersonDAO_NetClient/src/Client&apos;&#x0D;&#x0A;- Original project: &apos;PersonDAO2.1&apos;&#x0D;&#x0A;- Destination element: &apos;PersonDAO_NetClient/src/Client&apos;&#x0D;&#x0A;- Original element: &apos;GUI.PButtonPanel.java&apos;" description="Copy compilation unit" destination="=PersonDAO_NetClient/src&lt;Client" element1="/src&lt;GUI{PButtonPanel.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1487687189207" units="1" version="1.0"/>
+</session>

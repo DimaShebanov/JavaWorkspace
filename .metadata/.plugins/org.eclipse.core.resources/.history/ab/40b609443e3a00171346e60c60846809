@@ -1,0 +1,13 @@
+package server.core;
+
+public class ServerSender
+{
+	private static ServerSender instance = new ServerSender();
+	
+	
+	public static ServerSender getInstance()
+	{
+		return instance;
+	}
+
+}

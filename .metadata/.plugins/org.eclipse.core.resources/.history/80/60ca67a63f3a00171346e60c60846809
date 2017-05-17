@@ -1,0 +1,48 @@
+package server.core;
+
+import java.io.IOException;
+
+public class ServerSender
+{
+	private static ServerSender instance = new ServerSender();
+	SingleToneDB db;
+	public ServerSender()
+	{
+		db = SingleToneDB.getInstance();
+	}
+
+	public static ServerSender getInstance()
+	{
+		return instance;
+	}
+
+	public void send(String line)
+	{
+		String[] partsOfLine = line.split(";", 3);
+		
+		SRoom target = db.getRoom(partsOfLine[1]);
+		if(target != null)
+		{
+			sendInRoom(line, target);
+		}
+		
+	}
+
+	public void sendInRoom(String line, SRoom targetRoom)
+	{
+		for (SClient client : targetRoom.clientsTakingPart)
+		{
+			try
+			{
+				client.out.writeUTF(line);
+				client.out.flush();
+				System.out.println("sent to client " + client.id);
+			}
+			catch (IOException e)
+			{
+				e.printStackTrace();
+			}
+		}
+	}
+
+}

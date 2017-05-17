@@ -1,0 +1,21 @@
+package client.gui;
+
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.SwingConstants;
+import java.awt.BorderLayout;
+
+public class CRoom extends JPanel
+{
+	String name;
+	public CRoom(String name)
+	{
+		this.name = name;
+		setLayout(new BorderLayout(0, 0));
+		
+		JLabel roomName = new JLabel(name);
+		roomName.setHorizontalAlignment(SwingConstants.CENTER);
+		add(roomName);
+	}
+
+}

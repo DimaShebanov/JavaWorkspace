@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-pmd xmlns="http://acanda.ch/eclipse-pmd/0.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://acanda.ch/eclipse-pmd/0.8 http://acanda.ch/eclipse-pmd/eclipse-pmd-0.8.xsd">
+  <analysis enabled="false" />
+  <rulesets>
+    <ruleset name="Basic" ref="D:\Workspace\rulesets\java\basic.xml" refcontext="filesystem" />
+    <ruleset name="Braces" ref="D:\Workspace\rulesets\java\braces.xml" refcontext="filesystem" />
+    <ruleset name="Clone Implementation" ref="D:\Workspace\rulesets\java\clone.xml" refcontext="filesystem" />
+    <ruleset name="Code Size" ref="D:\Workspace\rulesets\java\codesize.xml" refcontext="filesystem" />
+    <ruleset name="Comments" ref="D:\Workspace\rulesets\java\comments.xml" refcontext="filesystem" />
+    <ruleset name="Controversial" ref="D:\Workspace\rulesets\java\controversial.xml" refcontext="filesystem" />
+    <ruleset name="Coupling" ref="D:\Workspace\rulesets\java\coupling.xml" refcontext="filesystem" />
+    <ruleset name="Empty Code" ref="D:\Workspace\rulesets\java\empty.xml" refcontext="filesystem" />
+    <ruleset name="Finalizer" ref="D:\Workspace\rulesets\java\finalizers.xml" refcontext="filesystem" />
+    <ruleset name="Import Statements" ref="D:\Workspace\rulesets\java\imports.xml" refcontext="filesystem" />
+    <ruleset name="J2EE" ref="D:\Workspace\rulesets\java\j2ee.xml" refcontext="filesystem" />
+    <ruleset name="JUnit" ref="D:\Workspace\rulesets\java\junit.xml" refcontext="filesystem" />
+    <ruleset name="Jakarta Commons Logging" ref="D:\Workspace\rulesets\java\logging-jakarta-commons.xml" refcontext="filesystem" />
+    <ruleset name="JavaBeans" ref="D:\Workspace\rulesets\java\javabeans.xml" refcontext="filesystem" />
+    <ruleset name="Naming" ref="D:\Workspace\rulesets\java\naming.xml" refcontext="filesystem" />
+    <ruleset name="Optimization" ref="D:\Workspace\rulesets\java\optimizations.xml" refcontext="filesystem" />
+    <ruleset name="Security Code Guidelines" ref="D:\Workspace\rulesets\java\sunsecure.xml" refcontext="filesystem" />
+    <ruleset name="Strict Exceptions" ref="D:\Workspace\rulesets\java\strictexception.xml" refcontext="filesystem" />
+    <ruleset name="Type Resolution" ref="D:\Workspace\rulesets\java\typeresolution.xml" refcontext="filesystem" />
+    <ruleset name="Unnecessary" ref="D:\Workspace\rulesets\java\unnecessary.xml" refcontext="filesystem" />
+    <ruleset name="Unused Code" ref="D:\Workspace\rulesets\java\unusedcode.xml" refcontext="filesystem" />
+  </rulesets>
+</eclipse-pmd>

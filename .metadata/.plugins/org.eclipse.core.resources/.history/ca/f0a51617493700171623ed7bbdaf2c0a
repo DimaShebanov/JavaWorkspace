@@ -1,0 +1,14 @@
+package client.gui;
+
+import javax.swing.JPanel;
+
+public class RoomFullSize extends JPanel
+{
+	public RoomFullSize()
+	{
+		setBounds(0, 0, 584, 411);
+		setLayout(null);
+	}
+	
+	
+}

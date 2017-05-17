@@ -1,0 +1,19 @@
+package client.gui;
+
+import java.awt.Color;
+
+import javax.swing.JPanel;
+
+public class CButtonPanel extends JPanel
+{
+
+	/**
+	 * Create the panel.
+	 */
+	public CButtonPanel()
+	{
+		setBackground(Color.YELLOW);
+		setBounds(0, 0, 584, 50);
+	}
+
+}

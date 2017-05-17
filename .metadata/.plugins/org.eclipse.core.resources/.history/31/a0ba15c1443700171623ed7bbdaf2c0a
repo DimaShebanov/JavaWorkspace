@@ -1,0 +1,40 @@
+package client.gui;
+
+import java.awt.Color;
+
+import javax.swing.JPanel;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class CButtonPanel extends JPanel
+{
+
+	CPanelRooms rooms;
+	public CButtonPanel(CPanelRooms rooms)
+	{
+		setBackground(Color.YELLOW);
+		setBounds(0, 0, 584, 50);
+		setLayout(null);
+		this.rooms = rooms;
+		JButton btnCreateRoom = new JButton("Create room");
+		btnCreateRoom.setBounds(0, 0, 120, 50);
+		btnCreateRoom.addActionListener(new ActionListener()
+		{
+			
+			@Override
+			public void actionPerformed(ActionEvent e)
+			{
+				rooms.add(new CRoom("namss"));
+				rooms.repaint();
+				System.out.println("sds");
+			}
+		});
+		add(btnCreateRoom);
+		
+		JButton btnExit = new JButton("Exit");
+		btnExit.setBounds(495, 0, 89, 50);
+		add(btnExit);	
+	}
+
+}

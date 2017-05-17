@@ -1,0 +1,17 @@
+package server;
+
+import java.util.ArrayList;
+
+public class SRoom
+{
+	ArrayList<SClient> roomClients;
+	PictureIO pio;
+	String name;
+	
+	public SRoom(String name)
+	{
+		roomClients = new ArrayList<>();
+		pio = new PictureIO();
+		this.name = name;
+	}
+}

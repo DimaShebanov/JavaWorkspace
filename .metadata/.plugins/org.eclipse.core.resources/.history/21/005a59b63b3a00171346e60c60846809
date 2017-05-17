@@ -1,0 +1,20 @@
+package server.core;
+
+public class ServerCore extends Thread
+{
+	SingleToneMessages msgDB;
+	ModuleFactory mFact;
+	
+	public ServerCore()
+	{
+		msgDB = SingleToneMessages.getInstance();
+		mFact = ModuleFactory.getInstance();
+	}
+	
+	@Override
+	public void run()
+	{
+		
+	}
+
+}

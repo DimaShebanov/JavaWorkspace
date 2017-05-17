@@ -1,0 +1,53 @@
+package client.connection;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.InputStream;
+
+import client.gui.CContentPanel;
+import client.gui.CRoom;
+import client.logic.CCommand;
+
+public class CReader extends Thread
+{
+	DataInputStream read;
+	CContentPanel content;
+	CCommand cComm;
+	public CReader(DataInputStream read, CContentPanel content)
+	{
+		this.read = read;
+		cComm = content.cComm;
+		this.content = content;
+	}
+
+	@Override
+	public void run()
+	{
+		String str = "";
+		try
+		{
+			while(true)
+			{
+				str = read.readUTF();
+				System.out.println("server response:" + str);
+				if(str.startsWith("hello:"))
+				{
+					content.rooms.setRooms(str.substring(str.indexOf(":" + 1)));
+				}
+				if(str.startsWith("new room created:"))
+				{
+					content.rooms.add(new CRoom(str.substring(str.indexOf(":") + 1), cComm));
+				}
+				
+				if(str.startsWith("welcome to:"))
+				{
+					
+				}
+			}
+		}
+		catch (Exception e) 
+		{
+			e.printStackTrace();
+		}
+	}
+}

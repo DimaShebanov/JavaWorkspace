@@ -1,0 +1,10 @@
+package server.core;
+
+public class ServerMain
+{
+	public static void main(String[] args)
+	{
+		ServerListener slist = new ServerListener();
+		ServerCore dispatcher = new ServerCore();
+	}
+}

@@ -1,0 +1,14 @@
+package client.logic;
+
+import client.connection.CConnection;
+import client.gui.CContentPanel;
+
+public class CCommand
+{
+
+	public CCommand(CContentPanel content, CConnection con)
+	{
+		
+	}
+
+}

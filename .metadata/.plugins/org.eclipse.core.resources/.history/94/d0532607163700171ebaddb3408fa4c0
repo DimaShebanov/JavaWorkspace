@@ -1,0 +1,30 @@
+package server;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.ArrayList;
+
+import model.MFigure;
+
+public class ServerMain
+{
+	public static void main(String[] args)
+	{
+		ServerSocket ss = new ServerSocket(7888);
+		ArrayList<SClient> clients = new ArrayList<SClient>();
+		ArrayList<String> msg = new ArrayList<String>();
+		ArrayList<MFigure> figs = new ArrayList<>();
+		ArrayList<SRoom> rooms = new ArrayList<>();
+
+		ServerSender ssend = new ServerSender(clients, msg, figs, rooms);
+		
+		ServerListener slist = new ServerListener(clients, msg, figs, rooms)
+		int id = 0;
+		while(true)
+		{
+			Socket sock = ss.accept();
+			System.out.println("we've got a new client");
+			clients.add(new SClient(sock, msg, ssend.lastMessage, id++, figs));
+		}
+	}
+}

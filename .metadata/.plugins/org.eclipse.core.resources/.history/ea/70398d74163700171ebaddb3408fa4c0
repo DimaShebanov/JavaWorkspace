@@ -1,0 +1,26 @@
+package server;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.ArrayList;
+
+import client.model.MFigure;
+
+public class ServerListener
+{
+
+	public ServerListener(ArrayList<SClient> clients, ArrayList<String> msg, ArrayList<MFigure> figs,
+			ArrayList<SRoom> rooms)
+	{
+		ServerSocket ss = new ServerSocket(7888);
+		int id = 0;
+		while(true)
+		{
+			Socket sock = ss.accept();
+			System.out.println("we've got a new client");
+			clients.add(new SClient(sock, msg, id++, figs));
+		}
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package ServerD;
+
+import java.util.ArrayList;
+
+public class Room
+{
+	ArrayList<SClient> clientstakingpart;
+	ArrayList<String> messagesForThisRoom;
+	String nameOfRoom;
+//	ArrayList<String> historyOfTheRoom = new ArrayList<>();
+	public Room(String nameOfRoom)
+	{
+		clientstakingpart = new ArrayList<>();
+		messagesForThisRoom = new ArrayList<>();
+		this.nameOfRoom = nameOfRoom;
+	}
+
+}

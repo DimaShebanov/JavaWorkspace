@@ -1,0 +1,25 @@
+package server.core;
+
+import java.util.ArrayList;
+
+public class SingleToneMessages
+{
+	private ArrayList<String> messages = new ArrayList<>();
+	private SingleToneMessages instance = new SingleToneMessages();
+	
+	public static SingleToneMessages getInstanceOf()
+	{
+		return instance;
+	}
+	
+	
+	public void addMessage(String str)
+	{
+		messages.add(str);
+	}
+	
+	public String get()
+	{
+		return messages.remove(0);
+	}
+}

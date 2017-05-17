@@ -1,0 +1,29 @@
+package client.logic;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import client.connection.CConnection;
+import client.gui.CContentPanel;
+
+public class CCommand
+{
+	CContentPanel content;
+	CConnection con;
+	
+	public CCommand(CContentPanel content, CConnection con)
+	{
+		this.con = con;
+		this.content = content;
+	}
+
+	
+	class ActionCreateRoomLst implements ActionListener
+	{
+		@Override
+		public void actionPerformed(ActionEvent e)
+		{
+			
+		}
+	}
+}

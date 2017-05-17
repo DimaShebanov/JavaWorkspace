@@ -1,0 +1,33 @@
+package client.connection;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.Socket;
+
+import client.gui.CContentPanel;
+
+public class CConnection
+{
+	Socket sock;
+	CReader reader;
+	CWriter writer;
+	CContentPanel content;
+
+	public CConnection(CContentPanel content)
+	{
+		this.content = content;
+		try
+		{
+			sock = new Socket("localhost", 7888);
+			reader = new CReader(new DataInputStream(sock.getInputStream()), content);
+			writer = new CWriter(new DataOutputStream(sock.getOutputStream()));
+			
+		} 
+		catch (IOException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

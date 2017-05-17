@@ -1,0 +1,27 @@
+package server;
+
+import java.net.Socket;
+import java.util.ArrayList;
+
+import client.model.MFigure;
+
+public class SClient extends Thread
+{
+	ArrayList<String> msg;
+	int id;
+	ArrayList<MFigure> figs;
+	public SClient(Socket sock, ArrayList<String> msg, int id, ArrayList<MFigure> figs)
+	{
+		this.msg = msg;
+		this.figs = figs;
+		this.id = id;
+		start();
+	}
+	
+	@Override
+	public void run()
+	{
+		
+	}
+
+}
